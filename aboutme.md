@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Simple as can be
+subtitle: Simple As Can Be
 ---
 <div class="w-100">
     <img src="/assets/img/musab 2.1.png" class="center-block img-circle" height="150px"/>
