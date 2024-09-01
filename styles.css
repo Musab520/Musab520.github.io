@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
     height: 100%;
@@ -9,32 +14,18 @@ body {
     height: 100%;
     width: 100%;
     background-color: red;
-    margin: 0;
-    padding: 0;
-
-}
-
-main {
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
 }
 
 #sidebar {
     width: 10rem;
-    height: 100%;
-    position: fixed;
     background-color: yellow;
 }
 
-
-#flex-container {
+main {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 80%;
-    margin-left: 10rem;
+    justify-content: space-between;
 }
 
 header {
@@ -42,9 +33,12 @@ header {
     height: 10rem;
 }
 
+#content {
+    flex-grow: 1;
+}
+
 footer {
     width: 100%;
     height: 10rem;
-    margin-left: 10rem;
     background-color: green;
 }
