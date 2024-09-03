@@ -1,0 +1,19 @@
+@font-face {
+    font-family: PointPanther;
+    src: url("Point-Panther.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BioticRegular;
+    src: url("biotic-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: LaroSoft;
+    src: url("Lara-Soft-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: LaroSoftThin;
+    src: url("Lara-Soft-Thin.ttf") format("truetype");
+}
