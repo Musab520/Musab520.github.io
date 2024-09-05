@@ -17,3 +17,8 @@
     font-family: LaroSoftThin;
     src: url("Lara-Soft-Thin.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: RetrokiaCaps;
+    src: url("Retrokia-Caps.ttf") format("truetype");
+}
