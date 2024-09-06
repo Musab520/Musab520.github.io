@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +16,12 @@ body {
     display: flex;
 }
 
+h2 {
+    color: #333333;
+}
+
 #sidebar {
-    width: 25rem;
+    width: 30rem;
     display: flex;
     justify-content: center;
     background-color: #f0f0f0;
@@ -24,7 +29,7 @@ body {
 
 .divider {
     width: 5%;
-    background-color: white;
+    background-color: #f0f0f0;
 }
 
 #rectangle-circle-container {
@@ -42,6 +47,14 @@ body {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     margin-bottom: 3rem;
+}
+
+#rectangle-circle h1 {
+    color: #f0f0f0;
+}
+
+#rectangle-circle h2 {
+    color: #f0f0f0;
 }
 
 #contact-me {
@@ -63,7 +76,6 @@ body {
 #contact-me-title h2 {
     font-family: RetrokiaCaps;
     font-size: 1.5rem;
-    
 }
 
 #contact-me-title img {
@@ -92,6 +104,13 @@ body {
 }
 
 #contact-me-location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-me-email {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -172,8 +191,24 @@ header {
 
 #content-container section {
     margin-top: 1rem;
+    padding-top: 1rem;
     margin-left: 1rem;
-    height: 50%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-container section img{
+    width: 2rem;
+    height: 2rem;
+    justify-self: center;
+    margin-right: 1rem;
+}
+
+#content-container section h2 {
+    font-family: RetrokiaCaps;
+    font-size: 1.5rem;
+    justify-self: center;
 }
 
 .left-container {
@@ -184,7 +219,132 @@ header {
     margin-right: 1rem;
 }
 
+#about-me {
+    height: 40%;
+}
+
+#technical {
+    height: 60%;
+}
+
+#education {
+    height: 20%;
+}
+
+#experience {
+    height: 80%;
+}
+
+#about-me-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#technical-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#experience-title {
+    display: flex;
+}
+
+#education-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#about-me-content {
+    font-family: TomaSansRegular;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+#technical-content {
+    font-family: TomaSansRegular;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+#experience-content {
+    margin-top: 1rem;
+    font-family: TomaSansRegular;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+#education-content {
+    font-family: TomaSansRegular;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.job h4 {
+    font-size: 1.5rem;
+}
+
+.company-date {
+    display: flex;
+}
+
+.company {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #999;
+    font-style: italic;
+}
+
 footer {
     width: 100%;
     height: 10rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+#socials img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#download-cv {
+    justify-self: center;
+    align-self: center;
+
+}
+.download-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333333;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: RetrokiaCaps;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
 }

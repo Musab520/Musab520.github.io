@@ -22,3 +22,8 @@
     font-family: RetrokiaCaps;
     src: url("Retrokia-Caps.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: TomaSansRegular;
+    src: url("toma-sans-regular.ttf") format("truetype");
+}
