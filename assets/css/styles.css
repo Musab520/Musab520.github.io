@@ -194,7 +194,6 @@ header {
 
 #content-container section {
     margin-top: 1rem;
-    padding-top: 1rem;
     margin-left: 1rem;
     padding-left: 1rem;
     display: flex;
@@ -223,19 +222,19 @@ header {
 }
 
 #about-me {
-    height: 40%;
+    height: 30%;
 }
 
 #technical {
-    height: 60%;
+    height: 70%;
 }
 
 #education {
-    height: 20%;
+    height: 40%;
 }
 
 #experience {
-    height: 80%;
+    height: 60%;
 }
 
 #about-me-title {
@@ -508,7 +507,7 @@ header {
     }
 
     #contact-me-email h3 {
-        font-size: 0.55rem;
+        font-size: 0.5rem;
     }
 
 
@@ -516,7 +515,7 @@ header {
         display: flex;
         justify-content: space-evenly;
         align-content: center;
-        margin-top: 0.4rem;
+        margin-top: 0.2rem;
     }
 
     #socials img {
