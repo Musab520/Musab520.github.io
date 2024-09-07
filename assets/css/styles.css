@@ -57,66 +57,6 @@ h2 {
     color: #f0f0f0;
 }
 
-#contact-me {
-    width: 100%;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-}
-
-#contact-me-title {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-
-#contact-me-title h2 {
-    font-family: RetrokiaCaps;
-    font-size: 1.5rem;
-}
-
-#contact-me-title img {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-}
-
-#contact-me h3 {
-    font-family: RetrokiaCaps;
-    font-size: 1rem;
-    
-}
-
-#contact-me img {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-}
-
-#contact-me-phone {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-me-location {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-me-email {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #author-title {
     display: flex;
     flex-direction: column;
@@ -156,9 +96,72 @@ h2 {
     align-self: center;
 }
 
-main {
+#contact-me {
+    width: 100%;
+    height: 25rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#contact-me-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+#contact-me-title h2 {
+    font-family: RetrokiaCaps;
+    font-size: 1.5rem;
+}
+
+#contact-me-title img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+#contact-me h3 {
+    font-family: RetrokiaCaps;
+    font-size: 1rem;
+    
+}
+
+#contact-me img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+#contact-me-phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#contact-me-location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#contact-me-email {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main {
+    display: flex;
     justify-content: space-between;
     width: 100%;
 }
@@ -308,11 +311,6 @@ header {
     font-style: italic;
 }
 
-footer {
-    width: 100%;
-    height: 10rem;
-}
-
 #socials {
     display: flex;
     justify-content: space-evenly;
@@ -347,4 +345,374 @@ footer {
 
 .download-btn:hover {
     background-color: #0056b3;
+}
+
+#equiptal {
+    margin-right: 20rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f0f0f0;
+        position: sticky;
+    }
+
+    .divider {
+        width: 100%;
+        height: 5%;
+        background-color: #f0f0f0;
+    }
+
+    #rectangle-circle-container {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #rectangle-circle {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 100%;
+        background-color: #333333;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 0%;
+        flex-grow: 1;
+        margin-bottom: 0rem;
+    }
+    
+    #rectangle-circle h1 {
+        color: #f0f0f0;
+    }
+    
+    #rectangle-circle h2 {
+        color: #f0f0f0;
+    }
+
+    #author-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        flex-grow: 0;
+        margin-top: 0rem;
+        color: white;
+    }
+    
+    #author {
+        font-family: PointPanther;
+        font-size: 1.5rem;
+        align-self: center;
+    }
+    
+    #title {
+        font-family: BioticRegular;
+        font-size: 1rem;
+        align-self: center;
+    }
+    
+    #img-container {
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        justify-content: center;
+        align-self: center;
+        background-color: white;
+        margin-bottom: 0.2rem;
+        margin-right: 1rem;
+        margin-left: 0.5rem;
+    }
+    
+    #rectangle-circle img {
+        width: 95%;
+        height: 95%;
+        border-radius: 50%;
+        align-self: center;
+    }
+    
+    #contact-me {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    #contact-me-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #contact-me h3 {
+        font-family: RetrokiaCaps;
+        font-size: 0.6rem;
+    }
+    
+    #contact-me img {
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 50%;
+    }
+    
+    
+    #contact-me-title h2 {
+        font-family: RetrokiaCaps;
+        font-size: 0.8rem;
+    }
+    
+    #contact-me-title img {
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+    }
+    
+    #contact-me-phone {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    
+    #contact-me-location {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    
+    #contact-me-email {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #contact-me-email h3 {
+        font-size: 0.55rem;
+    }
+
+
+    #socials {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-top: 0.4rem;
+    }
+
+    #socials img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    #download-cv {
+        align-self: center;
+
+    }
+    .download-btn {
+        display: inline-block;
+        padding: 0.6rem 1.3rem;
+        background-color: #333333;
+        color: #f0f0f0;
+        text-decoration: none;
+        border-radius: 2.5px;
+        font-family: RetrokiaCaps;
+        font-size: 0.6rem;
+        font-weight: bold;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        margin-top: 0.2rem;
+    }
+
+    .download-btn:hover {
+        background-color: #0056b3;
+    }
+
+
+    .section-content {
+        line-height: 1.25rem;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+        height: 10rem;
+    }
+    
+    #content-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        flex-grow: 1;
+    }
+    
+    #content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #content-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #content-container section {
+        height: 100%;
+        width: 20rem;
+        margin-top: 0rem;
+        padding-top: 1rem;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #content-container section img{
+        width: 2rem;
+        height: 2rem;
+        justify-self: center;
+        margin-right: 1rem;
+    }
+    
+    #content-container section h2 {
+        font-family: RetrokiaCaps;
+        font-size: 1.5rem;
+        justify-self: center;
+    }
+    
+    .left-container {
+        margin-right: 3rem;
+    }
+    
+    .right-container {
+        margin-right: 1rem;
+    }
+    
+    #about-me {
+        height: 40%;
+    }
+    
+    #technical {
+        height: 60%;
+    }
+    
+    #education {
+        height: 20%;
+    }
+    
+    #experience {
+        height: 80%;
+    }
+    
+    #about-me-title {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    #technical-title {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    #experience-title {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    #education-title {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    #about-me-content {
+        font-family: TomaSansRegular;
+        font-size: 1.25rem;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    
+    #technical-content {
+        font-family: TomaSansRegular;
+        font-size: 1.25rem;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    
+    #experience-content {
+        margin-top: 1rem;
+        font-family: TomaSansRegular;
+        font-size: 1.25rem;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    
+    #education-content {
+        font-family: TomaSansRegular;
+        font-size: 1.25rem;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    
+    .job {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .job h4 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .company-date {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .company {
+        font-size: 1.2rem;
+        color: #555;
+    }
+    
+    .date {
+        font-size: 1.2rem;
+        color: #999;
+        font-style: italic;
+    }
+
+    #equiptal {
+        margin-right: 0rem;
+    }
+    
 }
